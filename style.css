@@ -104,7 +104,6 @@
 
 .intro-text p{
     width: 400px;
-    padding: 0px 50px;
 }
 
 .intro-text a {
@@ -159,8 +158,10 @@
 .course-list-all{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 12vw 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+    flex-wrap: wrap;
 }
 
 .course-style{
@@ -170,6 +171,7 @@
     background-repeat: 8px;
     text-align: center;
     padding: 30px;
+    margin: 10px;
 }
 
 .course-style .course-image{
@@ -230,4 +232,21 @@
 
 .go{
     background-color : lightskyblue;
+}
+
+.map{
+    text-align: center;
+}
+iframe{
+    width: 600px;
+    height: 450px;
+}
+
+footer p{
+    display: block;
+    height: 60px;
+    font-weight: normal;
+    text-align: center;
+    color : rgb(2, 71, 114);
+    margin-top: 20px;
 }
