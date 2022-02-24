@@ -1,0 +1,233 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    animation-duration:1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+   }
+   @-webkit-keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+   }
+   @keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+   }
+
+#top {
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+#top ul{
+    overflow:hidden;
+    display: flex;
+    top : 0;
+    right : 0;
+    position: absolute;
+}
+
+#top ul li{
+    padding: 15px 15px;
+    list-style: none;
+}
+
+#top a{
+    display: inline-block;
+    text-decoration: none;
+    color : white;
+    font-size : 25px;
+}
+
+#top a:hover{
+    color: blue;
+}
+
+.up{
+    position: absolute;
+    top: 40%;
+    left : 20%;
+    text-align: center;
+}
+
+.up img{
+    width : 60vw;
+    margin : auto;
+}
+
+.up p{
+    color : white;
+    font-style: italic;
+    font-size : 30px;
+}
+.intro-image img{
+    width : 50%;
+    height : 50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.intro-up{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.intro-image img{
+    width: 500px;
+    margin: 20px;
+}
+
+.intro-text {
+    width: 500px;
+    margin: 0px 20px;
+    align-items: center;
+}
+
+.intro-text p{
+    width: 400px;
+    padding: 0px 50px;
+}
+
+.intro-text a {
+    display: block;
+    line-height: 50px;
+    width: 150px;
+    height: 50px;
+    margin: 30px auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.intro-text a:hover{
+    box-shadow: 0 2px 15px 2px rgba(140,140,140,0.4);
+}
+
+.blue{
+    background-color: #3652c5;
+}
+
+.yellow{
+    background-color: #FFC832;
+}
+
+.intro-down{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+#courses{
+    position: relative;
+}
+
+#particles-js {
+    background-color: #DCEAFC;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.course-list-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12vw 50px;
+}
+
+.course-style{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    background-repeat: 8px;
+    text-align: center;
+    padding: 30px;
+}
+
+.course-style .course-image{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.course-image img {
+    min-width:  90px;
+    min-height: 90px;
+}
+
+.course-style h3{
+    font-size: 15px;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.course-style a{
+    display: block;
+    width: 160px;
+    height: 35px;
+    color : white;
+    font-size: 14px;
+    margin: 30px auto; 
+    text-decoration:none;
+    border-radius: 12px;
+    padding-top: 10px;
+}
+
+.html{
+    background-color : orange;
+}
+
+.css{
+    background-color : lightblue;
+}
+
+.unity{
+    background-color : black;
+}
+
+.ruby{
+    background-color : red;
+}
+
+.javascript{
+    background-color : yellow;
+}
+
+.swift{
+    background-color : orangered;
+}
+
+.go{
+    background-color : lightskyblue;
+}
