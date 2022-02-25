@@ -24,6 +24,24 @@
     100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
    }
 
+@font-face {
+    font-family: "font1";
+    src: url(fonts/Futura-Boo.ttf);
+  }
+@font-face {
+    font-family: "font2";
+    src: url(fonts/Futura-LigObl.ttf);
+}
+@font-face{
+    font-family: "font3";
+    src: url(fonts/Futura-Bol.ttf);
+}
+
+@font-face {
+    font-family: "font4";
+    src: url(fonts/Futura-Lig.ttf);
+}
+
 #top {
     height: 100vh;
     background-size: cover;
@@ -48,6 +66,8 @@
     text-decoration: none;
     color : white;
     font-size : 25px;
+    font-weight: bold;
+    font-family: "font1";
 }
 
 #top a:hover{
@@ -234,6 +254,26 @@
     background-color : lightskyblue;
 }
 
+#images{
+    margin-bottom: 50px;
+}
+
+.slider{
+    margin: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slider img{
+    height: 60%;
+    width: 100%;
+}
+
+.slick-prev::before, .slick-next::before{
+    z-index:100;
+    color: black !important;
+    opacity: 0.8;
+}
 .map{
     text-align: center;
 }
