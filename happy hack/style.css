@@ -138,6 +138,7 @@
     text-align: left;
     line-height: 30px;
     font-family: 'Hiragino Kaku Gothic Pro';
+    margin: 0 auto;
 }
 
 .intro-text a {
@@ -190,6 +191,7 @@
     margin-right: auto;
     width: 80%;
     flex-wrap: wrap;
+    padding: 40px;
 }
 
 .course-style{
