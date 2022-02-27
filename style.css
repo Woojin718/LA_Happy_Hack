@@ -1,6 +1,7 @@
 *{
     margin : 0;
     padding : 0;
+    box-sizing: border-box;
 }
 
 .fuwatAnime {
@@ -59,15 +60,15 @@
 }
 
 #top li a{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
-    font-family: "my-font1";
+    font-family: "font1";
     text-decoration:none;
     color : white;
 }
 
 #top a:hover{
-    color: blue;
+    color: #3D5CDB
 }
 
 .up{
@@ -85,10 +86,10 @@
 .up p{
     color : white;
     font-style: italic;
-    font-size : 40px;
-    font-family: "my-font2";
+    font-size : 50px;
+    font-family: "font2";
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 .intro-image img{
     width : 50%;
@@ -123,7 +124,7 @@
 .intro-image img{
     width: 400px;
     height: 300px;
-    padding: 45px;
+    padding: 25px;
     padding-bottom: 50px;
 }
 
@@ -223,6 +224,7 @@
     font-size: 15px;
     margin: 10px;
     padding-top: 30px;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, sans-serif;
 }
 
 .course-style a{
@@ -235,34 +237,39 @@
     text-decoration:none;
     border-radius: 12px;
     padding-top: 10px;
+    box-shadow: none;
+}
+
+.course-style a:hover{
+    box-shadow: 0 2px 15px 2px rgba(140, 140, 140, 0.4);
 }
 
 .html{
-    background-color : orange;
+    background-color : #F16529;
 }
 
 .css{
-    background-color : lightblue;
+    background-color : #29A9DF;
 }
 
 .unity{
-    background-color : black;
+    background-color : #333333;
 }
 
 .ruby{
-    background-color : red;
+    background-color : #FF5252;
 }
 
 .javascript{
-    background-color : yellow;
+    background-color : #FED700;
 }
 
 .swift{
-    background-color : orangered;
+    background-color : #FE7536;
 }
 
 .go{
-    background-color : lightskyblue;
+    background-color : #73CEDD;
 }
 
 #images{
@@ -300,6 +307,7 @@ footer p{
     text-align: center;
     color : rgb(2, 71, 114);
     margin-top: 20px;
+    font-family: "font4";
 }
 
 @media screen and (max-width: 480px) {
@@ -345,14 +353,14 @@ footer p{
 
     .course-style{
         width: 150px;
-        height: 200px;
+        height: 220px;
         padding: 10px;
     }
 
     .course-style .course-image {
-        width: 70px;
-        height: 70px;
-        padding-top: 40px;
+        width: 80px;
+        height: 80px;
+        padding-top: 50px;
     }
 
     .course-image img {
@@ -361,26 +369,31 @@ footer p{
     }
     
     .course-style h3{
-        font-size: 14px;
-        margin: 5px;
-        padding-top: 20px;
+        font-size: 12px;
+        padding-top: 40px;
     }
     
     .course-style a{
         display: block;
-        width: 130px;
-        height: 35px;
+        width: 100px;
+        height: 32px;
         color : white;
-        font-size: 12px;
+        font-size: 10px;
         margin: 10px auto; 
         padding-top: 0px;
         font-weight: bold;
         line-height: 30px;
     }
 
+    .course-list-all{
+        width: 90%;
+        padding: 10px;
+    }
     .intro-image{
         width: auto;
-        margin: 20px;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
     }
 
     .intro-text{
@@ -426,6 +439,6 @@ footer p{
     }
 
     iframe {
-        width: 100vw;
+        width: 80vw;
     }
 }
