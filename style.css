@@ -442,3 +442,72 @@ footer p{
         width: 80vw;
     }
 }
+@media (min-width: 1200px){
+    .course-style{
+        width: 150px;
+        height: 220px;
+        padding: 10px;
+    }
+
+    .course-style .course-image {
+        width: 80px;
+        height: 80px;
+        padding-top: 50px;
+    }
+
+    .course-image img {
+        min-width:  100%;
+        min-height: 100%;
+    }
+    
+    .course-style h3{
+        font-size: 12px;
+        padding-top: 40px;
+    }
+    
+    .course-style a{
+        display: block;
+        width: 100px;
+        height: 32px;
+        color : white;
+        font-size: 10px;
+        margin: 10px auto; 
+        padding-top: 0px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 375px){
+    .intro-text p{
+        width: 80%;
+        text-align: left;
+        line-height: 30px;
+        font-family: 'Hiragino Kaku Gothic Pro';
+        margin: 0 auto;
+    }
+
+    .course-style{
+        width: 120px;
+        height: 180px;
+    }
+
+    .course-style .course-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .course-style h3{
+        font-size: 10px;
+        padding-top: 50px;
+        margin: 0;
+    }
+    
+    .course-style a{
+        display: block;
+        width: 100px;
+        height: 28px;
+        color : white;
+        font-size: 2px;
+    }
+}
