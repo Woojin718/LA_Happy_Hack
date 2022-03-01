@@ -95,6 +95,7 @@
 .intro-image{
     width: 350px;
     height: 350px;
+    margin: 50px;
 }
 .intro-image img{
     width : 100%;
@@ -205,6 +206,7 @@
     padding: 30px;
     margin: 10px;
     border-radius: 12px;
+    align-items: center;
 }
 
 .course-style .course-image{
@@ -222,19 +224,18 @@
 }
 
 .course-style h3{
-    font-size: 15px;
+    font-size: 14px;
     margin: 10px;
-    padding-top: 30px;
     font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, sans-serif;
 }
 
 .course-style a{
     display: block;
-    width: 160px;
-    height: 35px;
+    width: 140px;
+    height: 40px;
     color : white;
-    font-size: 14px;
-    margin: 30px auto; 
+    font-size: 13px;
+    margin: 20px auto; 
     text-decoration:none;
     border-radius: 12px;
     padding-top: 10px;
@@ -451,19 +452,20 @@ footer p{
         line-height: 30px;
         font-family: 'Hiragino Kaku Gothic Pro';
         margin: 0 auto;
+        margin-bottom: 10px;
     }
 
     .intro-image{
         width: 350px;
         margin: 0px;
         padding: 0px;
+        height: 270px;
     }
 
     .intro-image img{
-        width: 268px;
-        height: 250px;
-        padding-bottom: 10px;
-        padding-left: 15px;
+        width: 330px;
+        height: 270px;
+        padding-left: 25px;
     }
     
     .course-style{
