@@ -476,14 +476,15 @@ footer p{
     }
 
     .course-style .course-image {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 20px;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
     }
     
     .course-style h3{
         font-size: 14px;
         margin: 0;
+        padding-top: 35px;
     }
     
     .course-style a{
