@@ -106,12 +106,12 @@
 
 .title{
     text-align: center;
-    font-size: 60px;
     color: #3D5CDB;
     font-weight: bold;
-    padding: 30px;
     font-family: "font3";
-    margin-top: 10px;
+    margin-top: 10px;    
+    font-size: 53px;
+    padding: 40px; 
 }
 
 .intro-up{
@@ -146,16 +146,18 @@
 
 .intro-text a {
     display: block;
-    line-height: 50px;
-    width: 200px;
-    height: 50px;
+    line-height: 40px;
+    margin: 30px auto;
+    width: 170px;
+    height: 40px;
     margin: 30px auto;
     text-decoration: none;
     color: white;
     text-align: center;
     font-weight: bold;
     border-radius: 12px;
-    padding: 50px auto;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .intro-text a:hover{
@@ -192,14 +194,14 @@
     justify-content: center;
     margin-left: auto; 
     margin-right: auto;
-    width: 80%;
     flex-wrap: wrap;
-    padding: 40px;
+    margin-bottom: 50px;
+    max-width: 1200px;
 }
 
 .course-style{
-    width: 200px;
-    height: 300px;
+    width: 240px;
+    height: 340px;
     background-color: white;
     background-repeat: 8px;
     text-align: center;
@@ -219,19 +221,20 @@
 }
 
 .course-image img {
-    min-width:  90px;
-    min-height: 90px;
+    min-width:  80px;
+    min-height: 80px;
 }
 
 .course-style h3{
-    font-size: 13px;
+    padding-top: 20px;
+    font-size: 15px;
     margin: 30px;
     font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, sans-serif;
 }
 
 .course-style a{
     display: block;
-    width: 140px;
+    width: 170px;
     height: 40px;
     color : white;
     font-size: 13px;
@@ -305,14 +308,14 @@ iframe{
 footer p{
     display: block;
     height: 60px;
-    font-weight: normal;
+    line-height: 60px;
+    font-weight: bold;
     text-align: center;
     margin-top: 20px;
     font-family: "font4";
     color: #3D5CDB;
-    font-size: 20px;
+    font-size: 1.1rem;
 }
-
 @media screen and (max-width: 480px) {
 
     #top {
@@ -351,7 +354,7 @@ footer p{
 
 
     .title{
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .course-style{
@@ -388,10 +391,6 @@ footer p{
         line-height: 30px;
     }
 
-    .course-list-all{
-        width: 90%;
-        padding: 10px;
-    }
     .intro-image{
         width: auto;
         margin: 0px;
@@ -444,6 +443,7 @@ footer p{
 
     iframe {
         width: 100vw;
+        height: 75vw;
     }
 }
 
@@ -465,44 +465,46 @@ footer p{
     }
 
     .intro-image img{
-        width: 330px;
-        height: 270px;
-        padding-left: 25px;
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
     }
     
     .course-style{
-        width: 130px;
-        height: 180px;
+        width: 160px;
+        height: 220px;
     }
 
     .course-style .course-image {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
     }
     
     .course-style h3{
-        font-size: 10px;
-        padding-top: 50px;
+        font-size: 14px;
         margin: 0;
     }
     
     .course-style a{
         display: block;
-        width: 100px;
-        height: 28px;
+        width: 140px;
+        height: 40px;
         color : white;
-        font-size: 2px;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 5px;
     }
 
     .title{
         text-align: center;
-        font-size: 40px;
-        padding: 30px;
+        font-size: 10vw;
         font-family: "font3";
         margin-top: 10px;
     }
 
     iframe {
         width: 100vw;
+        height: 75vw;
     }
 }
